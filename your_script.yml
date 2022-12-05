@@ -24,4 +24,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run shell script
-        run: ./publish.sh
+        run: ./home/runner/work/_temp/5766afb9-ce24-4388-a824-c1a83898ac23.sh
