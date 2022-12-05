@@ -24,4 +24,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run shell script
-        run: ./your_script.sh
+        run: ./publish.sh
