@@ -32,8 +32,8 @@ jobs:
         
     - name: Publish on prod
       if: github.ref == 'refs/heads/main'
-      run: sh ./publish.sh prod
+      run: ./publish.sh prod
 
     - name: Publish on dev
       if: github.ref == 'refs/heads/develop'
-      run: sh ./publish.sh dev
+      run: ./publish.sh dev
